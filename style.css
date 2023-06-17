@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: chocolate;
+    height: 50vh;
+}
+img{
+    height:100%;
+    width:200px;
+    /* transition-property:width; */
+    transition:width 3s ease-in 2ms;
+
+}
+.box{
+    height:200px;
+    width:200px;
+    /* border: 5px solid black; */
+    /* transform: translate(34px) rotate(35deg) ; */
+    transform: translate(10px,10px);
+    /* transform-origin:0; */
+    /* transform:scale(3); */
+    /* transform:skew(110deg,10deg); */
+}
